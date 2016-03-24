@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>163875FB-0A32-4DAF-AA44-37257C1AF515</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TXXE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>897fe95e-7575-ef44-a854-1ebb90cd54fa</key>
+		<string>https://116.56.143.152:8443/svn/doc</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TXXE/TXXE.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>897fe95e-7575-ef44-a854-1ebb90cd54fa</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>897fe95e-7575-ef44-a854-1ebb90cd54fa</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>897fe95e-7575-ef44-a854-1ebb90cd54fa</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E6%88%91%E7%9A%84%E6%96%87%E4%BB%B6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

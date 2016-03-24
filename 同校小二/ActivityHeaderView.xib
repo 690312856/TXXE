@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ActivityHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vyg-3c-FoJ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                    <color key="backgroundColor" red="0.023529411760000001" green="0.71764705880000002" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Vyg-3c-FoJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CMm-hc-J7M"/>
+                <constraint firstAttribute="trailing" secondItem="Vyg-3c-FoJ" secondAttribute="trailing" id="Qao-8G-3Vv"/>
+                <constraint firstItem="Vyg-3c-FoJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fhl-Pq-EvM"/>
+                <constraint firstAttribute="bottom" secondItem="Vyg-3c-FoJ" secondAttribute="bottom" id="jXg-Cp-g0j"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="292" y="703"/>
+        </view>
+    </objects>
+</document>

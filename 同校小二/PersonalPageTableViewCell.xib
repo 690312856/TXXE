@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalPageTableViewCell"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="55" id="rJl-Wp-7ZC" customClass="PersonalPageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rJl-Wp-7ZC" id="5jH-qs-YEg">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRx-fH-MhX">
+                        <rect key="frame" x="185" y="13" width="89" height="29"/>
+                        <state key="normal" title="Button">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="verifyButtonAction:" destination="rJl-Wp-7ZC" eventType="touchUpInside" id="y7h-Ee-9BF"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学生证认证：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9am-2u-Emt">
+                        <rect key="frame" x="8" y="17" width="102" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="102" id="293-qt-aHd"/>
+                            <constraint firstAttribute="height" constant="21" id="UD2-fk-whp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ox-mI-8GU">
+                        <rect key="frame" x="190" y="16" width="61" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9am-2u-Emt" firstAttribute="top" secondItem="5jH-qs-YEg" secondAttribute="topMargin" constant="9" id="IHI-20-iIC"/>
+                    <constraint firstItem="9am-2u-Emt" firstAttribute="leading" secondItem="5jH-qs-YEg" secondAttribute="leading" constant="8" id="TJh-HY-HGk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftConstraint" destination="TJh-HY-HGk" id="sK7-Cq-ay1"/>
+                <outlet property="menuTitleLabel" destination="9am-2u-Emt" id="huh-0o-lZC"/>
+                <outlet property="numberLabel" destination="7ox-mI-8GU" id="WJK-qe-42O"/>
+                <outlet property="verifyButton" destination="dRx-fH-MhX" id="P7L-cr-ye4"/>
+            </connections>
+            <point key="canvasLocation" x="364" y="205.5"/>
+        </tableViewCell>
+    </objects>
+</document>

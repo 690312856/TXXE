@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ScoreDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wau-BO-4Nh">
+                        <rect key="frame" x="8" y="11" width="111" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.023529411760000001" green="0.71764705880000002" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X20-VX-CmO">
+                        <rect key="frame" x="201" y="11" width="111" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.023529411760000001" green="0.71764705880000002" blue="0.3921568627" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPJ-EI-rlw">
+                        <rect key="frame" x="127" y="11" width="66" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="2mT-2K-JdI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.99215686270000003" green="0.70980392160000005" blue="0.26274509800000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="IPJ-EI-rlw" secondAttribute="centerY" id="BqJ-ck-kkO"/>
+                    <constraint firstAttribute="centerY" secondItem="X20-VX-CmO" secondAttribute="centerY" id="GRc-td-QpS"/>
+                    <constraint firstItem="IPJ-EI-rlw" firstAttribute="leading" secondItem="Wau-BO-4Nh" secondAttribute="trailing" constant="8" id="Hsr-l4-xz7"/>
+                    <constraint firstAttribute="centerX" secondItem="IPJ-EI-rlw" secondAttribute="centerX" id="I3p-wi-18q"/>
+                    <constraint firstItem="X20-VX-CmO" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="IfC-mT-GI3"/>
+                    <constraint firstItem="Wau-BO-4Nh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Rmh-DF-Qyr"/>
+                    <constraint firstItem="X20-VX-CmO" firstAttribute="leading" secondItem="IPJ-EI-rlw" secondAttribute="trailing" constant="8" id="hct-eu-Fd7"/>
+                    <constraint firstItem="X20-VX-CmO" firstAttribute="width" secondItem="Wau-BO-4Nh" secondAttribute="width" id="sfg-Uc-Wff"/>
+                    <constraint firstAttribute="centerY" secondItem="Wau-BO-4Nh" secondAttribute="centerY" id="vJC-bh-5dF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="createTime" destination="Wau-BO-4Nh" id="Fr6-gF-GkH"/>
+                <outlet property="descriptionLabel" destination="X20-VX-CmO" id="0eq-Bb-M45"/>
+                <outlet property="scoreLabel" destination="IPJ-EI-rlw" id="AAv-ZH-rpY"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
